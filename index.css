@@ -1,11 +1,9 @@
 @keyframes slidein {
     from {
         transform: translateX(-100%);
-        opacity: 0;
     }
     to {
         transform: translateX(0);
-        opacity: 1;
     }
 }
 
@@ -16,7 +14,10 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 
-    background-color: #2700fd;
+    background-image:url('assets\\css-lattice.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 ul {
@@ -27,14 +28,25 @@ header {
     animation: slidein 5s linear -1s 1 running;
     border-top-right-radius: 80px 80px;
     border-bottom-right-radius: 80px 80px;
-    background-color: #4c33ff;
+    background-color: white;
     margin-top:  0.5rem;
     margin-bottom:  0.5rem;
     height: 6vh;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     width: 40%;
+}
+
+footer {
+    position: fixed;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    background: rgb(55, 61, 55);
+    color: white;
+    font-size: 30px;
 }
 
 header ul {
@@ -48,8 +60,10 @@ header ul li {
     height: 100%;
     padding: 1rem;
     font-weight: bold;
+    opacity: 1;
 }
 
 header ul li:hover {
-    background-color: #8a75ff ;
+    background-color: rgb(69, 90, 211) ;
+    border-radius: 20px;
 }
