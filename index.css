@@ -125,3 +125,8 @@ header ul li:hover {
 #personal-picture {
     border-radius: 20px 0px 0px 0px;
 }
+
+#logo-header {
+    width: 100%;
+    height: auto;
+}
