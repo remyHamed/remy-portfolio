@@ -40,10 +40,78 @@ header {
     flex-wrap: wrap;
 }
 
+#logo-header {
+    max-width: 70px;
+    height: auto;
+}
+
 header nav {
     border-radius: 80px;
     background-color: white;
     margin: auto
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-block-start: 0;  
+    margin-block-end: 0;
+
+    
+    padding: 1rem;
+}
+
+header ul li {
+    height: 100%;
+    padding: 1rem;
+    font-weight: bold;
+    opacity: 1;
+}
+
+header ul li:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 80px 80px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.main-div {
+    height: 100%;
+    background-color: rgb(16, 128, 194);
+    opacity: 0.5;
+    max-width: 50%;
+    color: white;
+
+    border-radius: 20px 20px 0px 0px;
+
+    display: flex;
+    flex-direction: row;
+
+    margin: auto
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    opacity: 1;
+}
+
+.text-container div {
+    text-justify: auto;
+}
+
+#personal-picture {
+    border-radius: 20px 0px 0px 0px;
 }
 
 footer {
@@ -76,69 +144,4 @@ footer div div {
 
 footer div div a {
     color: white;
-}
-
-
-header ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-header ul li {
-    height: 100%;
-    padding: 1rem;
-    font-weight: bold;
-    opacity: 1;
-}
-
-header ul li:hover {
-    background-color: rgb(38, 52, 131);
-    border-radius: 80px;
-    color: white;
-}
-
-.main-div {
-    height: 100%;
-    background-color: rgb(16, 128, 194);
-    opacity: 0.5;
-    margin-left: 30%;
-    margin-right: 30%;
-    color: white;
-
-    border-radius: 20px 20px 0px 0px;
-
-    display: flex;
-    flex-direction: row;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 7vh;
-}
-
-.text-container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 0.5rem;
-    opacity: 1;
-}
-
-.text-container div {
-    text-justify: auto;
-}
-
-#personal-picture {
-    border-radius: 20px 0px 0px 0px;
-}
-
-#logo-header {
-    max-width: 70px;
-    height: auto;
 }
