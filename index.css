@@ -26,16 +26,24 @@ ul {
 
 header {
     animation: slidein 5s linear -1s 1 running;
-    border-top-right-radius: 80px 80px;
-    border-bottom-right-radius: 80px 80px;
-    background-color: white;
+   
     margin-top:  1rem;
     margin-bottom:  0.5rem;
     height: 6vh;
     color: black;
+    
+    width: 100%;
+
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 40%;
+    flex-wrap: wrap;
+}
+
+header nav {
+    border-radius: 80px;
+    background-color: white;
+    margin: auto
 }
 
 footer {
@@ -76,6 +84,9 @@ header ul {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 header ul li {
@@ -87,7 +98,7 @@ header ul li {
 
 header ul li:hover {
     background-color: rgb(38, 52, 131);
-    border-radius: 20px;
+    border-radius: 80px;
     color: white;
 }
 
@@ -109,6 +120,7 @@ header ul li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 7vh;
 }
 
 .text-container {
@@ -127,6 +139,6 @@ header ul li:hover {
 }
 
 #logo-header {
-    width: 100%;
+    max-width: 70px;
     height: auto;
 }
