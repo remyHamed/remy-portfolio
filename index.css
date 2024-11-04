@@ -23,9 +23,10 @@
     height: 100%;
     background-color: rgb(16, 128, 194);
     max-width: 50%;
+    min-width: 50%;
     color: white;
 
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px; 
 
     display: flex;
     flex-direction: row;
@@ -47,7 +48,18 @@
     line-height: 2;
 }
 
+.main-div img {
+    max-width: 100px;
+    height: auto;
+}
+
 #personal-picture {
-    border-radius: 20px 0px 0px 0px;
+    border-radius: 20px 0px 0px 20px;
+    max-width: 230px;
+}
+
+#web-picture {
+    border-radius: 20px 0px 0px 20px;
+    max-width: 230px;
 }
 

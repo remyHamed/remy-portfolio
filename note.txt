@@ -14,3 +14,20 @@ footer {
     <p>Email : <a href="mailto:hamedremy@hotmail.fr">hamedremy@hotmail.fr</a></p>
     <p>Téléphone : <a href="tel:+33666271179">06 66 27 11 79</a></p>
 </footer>
+
+
+
+    #logo-header {
+    //position: absolute;
+    //left: 1rem;
+    //top:  0.5rem;
+    //max-width: 100px;
+    //height: auto;
+}
+
+
+Ayant terminé ma 5ᵉ année de master en architecture logicielle à l'E.S.G.I, je suis passionné par la conception de solutions logicielles innovantes. Mon parcours full stack, de la création d’interfaces à la mise en place de structures backend, démontre ma capacité à mener des projets techniques. J’ai contribué à l’évolution d’architectures avec MongoDB et des API REST, et développé des fonctionnalités pour automatiser des procédures.
+ Toujours motivé par le partage et l’apprentissage, je vise à enrichir mes compétences et à m’investir dans des projets ambitieux
+
+ Actuellement en 5ᵉ année de master à l'E.S.G.I, spécialisé en architecture logicielle, je me passionne pour la conception et le testing de solutions logicielles innovantes.
+  Ma formation m'a permis de développer une approche collaborative dans le travail d'équipe, ainsi qu'une aptitude à assimiler et appliquer rapidement de nouvelles technologies dans mes projets. Mon parcours en développement full stack, depuis la création d'interfaces utilisateurs jusqu'à la mise en place de structures backend robustes, illustre ma capacité à diriger des initiatives techniques. J'ai activement contribué à l'évolution d'une architecture en favorisant l'adoption de MongoDB pour ses performances et en guidant la transition vers des API REST. Mon engagement dans le développement d'une fonctionnalité automatisant des procédures juridiques souligne mon intérêt pour l'innovation et l'efficacité opérationnelle. Toujours en quête de nouveaux défis et fervent du partage de connaissances, je suis déterminé à enrichir continuellement mon expertise et à apporter ma contribution à des projets ambitieux.
