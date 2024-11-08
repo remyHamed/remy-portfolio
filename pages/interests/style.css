@@ -1,24 +1,144 @@
 
-.container {
-    background-image: url("/assets/backgrounds/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.main-div {
 
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
     min-height: 80vh;
-    max-width: 80vh;    
-    margin: auto;
-    padding-top: 10vh;
+    z-index:-100;
+    object-fit: cover;
+  }
+
+
+  @keyframes slidein {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
 
-.cat-div-container {
-    margin: auto;
-    background-image: url("/assets/backgrounds/wip-4.webp");
+@keyframes skewAnimation {
+    from {
+        transform: rotateY(-24deg) rotateZ(-8deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotateY(0deg) rotateZ(0deg);
+        opacity: 1;
+    }
+}
+
+footer {
+    position: relative;
+    z-index: 1;
+}
+
+main {
+    height: auto;
+    min-height: calc(100vh - 5rem); 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+    
+    background-image: url('assets/backgrounds/Maison-Japonaise-traditionelle-4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 1rem;
-    min-width: 1000vh;
-    min-height: 100vh;
+    opacity: 0.8;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 12vh;
+}
+
+
+.div-1 {
+    height: 100%;
+    width: 100%;   
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    background-color: rgb(0, 0, 0, 0.9);
+}
+
+.main-div {
+    height: 100%;
+    background-color: rgb(16, 128, 194);
+    max-width: 50%;
+    color: white;
+
+    border-radius: 20px 20px 0px 0px;
+
+    display: flex;
+    flex-direction: row;
+
     margin: auto;
 }
+
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(0, 0, 0, 0);
+    border-radius: 80px;
+    padding: 2rem;
+
+    animation: skewAnimation 6s cubic-bezier(.23, 1, .32, 1) forwards .4s;
+}
+
+.text-container div {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 2;
+
+    font-family: "Roboto";
+    font-weight: 700;
+
+}
+
+.div-2 div {
+    border-radius: 80px;
+    padding: 1rem;
+
+}
+
+.div-2 div div {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.div-2 div div img {
+    max-height: 200px;
+    opacity: 1;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+    background-color: white;
+}
+
+
+
+.div-2 div div img:hover {
+    transform: scale(1.25); 
+}
+
