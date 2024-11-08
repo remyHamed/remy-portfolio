@@ -1,0 +1,24 @@
+
+.container {
+    background-image: url("/assets/backgrounds/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-div {
+
+    min-height: 80vh;
+    max-width: 80vh;    
+    margin: auto;
+    padding-top: 10vh;
+}
+
+.cat-div-container {
+    margin: auto;
+    background-image: url("/assets/backgrounds/wip-4.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    min-width: 1000vh;
+    min-height: 100vh;
+    margin: auto;
+}
